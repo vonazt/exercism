@@ -6,7 +6,7 @@ class Bob {
     if(!this.phrase.length) return 'Fine. Be that way!';
     if(this.isUpperCase() && !this.isQuestion() && !this.isNumbers()) return 'Whoa, chill out!';
     if(this.isQuestion()) return this.questionResponse();
-    else return 'Whatever.';
+    return 'Whatever.';
   }
 
   isQuestion() {
